@@ -5,6 +5,8 @@
 ## Already stated (initial pitch)
 
 - Era: c. 1400–1600 (gunpowder era).
+- From 00-vision: in this world all rulers are engineers. This leans towards
+  alternate history or a fictional world; strict real history would conflict.
 
 ## Questions
 

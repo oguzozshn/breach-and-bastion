@@ -2,6 +2,11 @@
 
 **Status:** Not started
 
+## Already stated (from earlier topics)
+
+- From 00-vision: campaign length depends on how many sieges the player plays
+  versus auto-resolves (OQ-003).
+
 ## Questions
 
 ### Economy → siege

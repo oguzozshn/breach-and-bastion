@@ -6,6 +6,10 @@
 
 - CK3 / EU5-style map: provinces, economy, diplomacy, characters / dynasty.
 - Starts thin; the siege layer is the deep one.
+- From 00-vision: war is a chain of sieges — every province has a fortress; no
+  dice-resolved field battles (ADR 0002).
+- From 00-vision: MVP economy has 3–5 resources that forts and guns cost; no
+  production chains, trade or markets in the MVP.
 
 ## Questions
 
