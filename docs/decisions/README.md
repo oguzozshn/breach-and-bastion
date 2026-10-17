@@ -9,4 +9,5 @@ supersedes the old one.
 | # | Title | Status |
 | --- | --- | --- |
 | 0001 | [Requirements-first workflow](0001-requirements-first-workflow.md) | Accepted |
-| 0002 | [Design pillars and war model](0002-design-pillars.md) | Accepted |
+| 0002 | [Design pillars and war model](0002-design-pillars.md) | Accepted (amended by 0003) |
+| 0003 | [Fictional world instead of real history](0003-fictional-world.md) | Accepted |

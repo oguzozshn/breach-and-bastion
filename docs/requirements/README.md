@@ -17,7 +17,7 @@ whatever the owner writes is authoritative.
 | # | Topic | File | Status |
 | --- | --- | --- | --- |
 | 0 | Vision | [00-vision.md](00-vision.md) | Done |
-| 1 | World and setting | [01-setting.md](01-setting.md) | Not started |
+| 1 | World and setting | [01-setting.md](01-setting.md) | Done |
 | 2 | Visual style | [02-visual-style.md](02-visual-style.md) | Not started |
 | 3 | Strategic map layer | [03-strategic-map.md](03-strategic-map.md) | Not started |
 | 4 | Siege layer | [04-siege.md](04-siege.md) | Not started |

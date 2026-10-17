@@ -2,7 +2,8 @@
 
 > Working title.
 
-A strategy game set in the gunpowder era (c. 1400–1600) with two layers:
+A strategy game set in a fictional world at a gunpowder-era technology level
+(equivalent to c. 1400–1600) with two layers:
 
 - **Strategic layer** — a grand-strategy map in the spirit of *Crusader Kings 3* and
   *Europa Universalis 5*: provinces, economy, diplomacy, characters and dynasties.

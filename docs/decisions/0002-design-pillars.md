@@ -1,6 +1,6 @@
 # 0002 — Design pillars and war model
 
-- **Status:** Accepted
+- **Status:** Accepted — pillar 3 renamed by [0003](0003-fictional-world.md)
 - **Date:** 2026-10-17
 - **Topic:** 00 — Vision
 

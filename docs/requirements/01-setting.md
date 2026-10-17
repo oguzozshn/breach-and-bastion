@@ -1,59 +1,71 @@
 # 01 — World and setting
 
-**Status:** Not started
+**Status:** Done
 
 ## Already stated (initial pitch)
 
-- Era: c. 1400–1600 (gunpowder era).
-- From 00-vision: in this world all rulers are engineers. This leans towards
-  alternate history or a fictional world; strict real history would conflict.
+- Technology level: gunpowder era (real-world equivalent c. 1400–1600).
+- From 00-vision: in this world all rulers are engineers.
 
 ## Questions
 
-### History model
-Real history, fictional world, or alternate history?
+### World model
+Real history, alternate history, or a fictional world?
 
-**Decision:** _TBD_
+**Decision:** **Fictional world** (ADR 0003). No real states, borders or events.
+Real-world physics and military engineering still apply.
 
-### Names of states and places
-Real names, fictionalized names, or procedurally generated? Endonyms or English
-exonyms (e.g. *Venezia* vs. *Venice*)?
+### Fantasy level
+How much fantasy does the fictional world contain?
 
-**Decision:** _TBD_
+**Decision:** **Nothing supernatural.** No magic, no fantasy races. Invented states,
+cultures and myths are allowed, but physics works exactly as in the real world.
 
-### Geographic scope
-Whole of Europe, the Mediterranean, a single region (e.g. Italy, the Balkans,
-the Ottoman–Habsburg frontier), or a fictional continent?
+### Geography
+How is the fictional map made?
 
-**Decision:** _TBD_
+**Decision:** **One hand-crafted map**, inspired by Renaissance Italy: a peninsula of
+city-states, mountain passes and rivers, designed for gameplay.
+**Later (not MVP):** randomised elements on the hand-crafted map (resource
+distribution, starting conditions). Fully procedural maps are out of scope — they
+conflict with a curated set of playable states.
 
-### Start and end dates
-Single fixed start year or multiple bookmarks? When does the campaign end?
+### Starting technology level
+There is no real calendar; at what point of the fortification revolution does the
+game begin?
 
-**Decision:** _TBD_
+**Decision:** **Tall walls are still standard; cannon are only just becoming
+effective** (real-world equivalent ≈ 1494). The player lives through the revolution
+from its very start. How the calendar is shown belongs to topic 03.
+
+### Naming conventions
+How are states, places, dynasties and fortresses named?
+
+**Decision:**
+
+- **Dynasties and rulers** are named after real (deceased) scientists and engineers:
+  e.g. Terzaghi, Bernoulli, Tartaglia, Sangallo, Vauban, Coehoorn, Coulomb, Mohr,
+  Navier, Euler, Hooke, Galileo. No living people.
+- **Places and states** get Italian-sounding invented names with engineering roots
+  (e.g. Calcara — lime kiln, Fornace — furnace, Pontevalle).
+- **Later:** fortresses may also carry engineers' names (e.g. Fort Vauban).
 
 ### Player starting position
-Which states are playable? Any state, a curated set, or one fixed protagonist?
+Which states are playable?
 
-**Decision:** _TBD_
-
-### Historical figures
-Real rulers and engineers, fictional ones, or real ones with divergent lives?
-
-**Decision:** _TBD_
-
-### Historical accuracy
-How strictly do events, borders and technology follow history?
-
-**Decision:** _TBD_
-
-### Iconic sieges
-Should specific historical sieges appear as scenarios or tutorials
-(e.g. Constantinople 1453, Italian Wars 1494, Rhodes 1522, Vienna 1529, Malta 1565)?
-
-**Decision:** _TBD_
+**Decision:** **A curated set of 3–5 states** in the MVP.
+**Later:** any state on the map.
 
 ### Culture and religion
-How are cultures and religions represented, if at all?
+How are cultures and religions represented?
 
-**Decision:** _TBD_
+**Decision:** **Flavour only** in the MVP: cultures show in names, architectural
+style and visuals; no game mechanics.
+
+### Scenarios
+Without real history there are no historical sieges. What replaces them?
+
+**Decision:** **MVP: campaign only, no standalone scenarios.**
+**Later:** a tutorial plus standalone "engineering challenges"
+(e.g. "Breach the tall wall in 10 shots", "Hold the bastion for 20 minutes"),
+Poly Bridge–style.

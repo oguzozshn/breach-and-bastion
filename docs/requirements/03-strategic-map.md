@@ -10,6 +10,8 @@
   dice-resolved field battles (ADR 0002).
 - From 00-vision: MVP economy has 3–5 resources that forts and guns cost; no
   production chains, trade or markets in the MVP.
+- From 01-setting: one hand-crafted fictional map inspired by Renaissance Italy;
+  3–5 curated playable states in the MVP; cultures and religions are flavour only.
 
 ## Questions
 
@@ -31,6 +33,13 @@ Sources of income, expenses, how detailed (single treasury vs. multiple goods)?
 ### Resources and goods
 Which resources exist (e.g. saltpetre, sulphur, charcoal, copper, tin, iron, stone,
 timber, labour, money)? Which matter for sieges?
+
+**Decision:** _TBD_
+
+### Province / city development
+How do provinces and cities grow: buildings (workshops, foundries, quarries,
+markets), population, upgrading fortifications? How deep can it go without becoming
+a city builder (a non-goal in 00-vision)?
 
 **Decision:** _TBD_
 

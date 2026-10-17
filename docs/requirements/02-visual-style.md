@@ -2,6 +2,12 @@
 
 **Status:** Not started
 
+## Already stated (from earlier topics)
+
+- From 00-vision: Windows, mouse + keyboard; tone is serious but failure is fun.
+- From 01-setting: fictional world inspired by Renaissance Italy, nothing
+  supernatural; cultures are shown through names, architectural style and visuals.
+
 ## Questions
 
 ### 2D or 3D

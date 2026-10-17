@@ -8,6 +8,11 @@
 - Milestone 1 is fixed: a single siege scene — an old-style tall wall on one side,
   a low angled bastion on the other, the same cannon facing both. If the core idea is
   not fun here, the rest is not built.
+- From 00-vision: not in MVP — multiplayer, naval warfare, deep trade economy,
+  production chains, field battles. Never — real-time tactical unit control, city
+  builder.
+- From 01-setting: not in MVP — tutorial and standalone engineering-challenge
+  scenarios, randomised map elements, playing any state (MVP: 3–5 curated states).
 
 ## Questions
 

@@ -2,6 +2,15 @@
 
 **Status:** Not started
 
+## Already stated (from earlier topics)
+
+- From 01-setting: the game starts when tall walls are still standard and cannon
+  are only just becoming effective (real-world equivalent ≈ 1494).
+- From 01-setting: dynasties are named after real scientists / engineers. Idea to
+  discuss here: a dynasty's expertise follows its namesake's field (Terzaghi → earth
+  works, Tartaglia → ballistics). Caution: as an abstract bonus this would break
+  pillar 1.
+
 ## Questions
 
 ### Progression model
@@ -30,7 +39,7 @@ the player in the simulation?
 
 ### Engineer characters
 Do engineer characters exist? What do they do (design bonuses, unlocks, speed)?
-Real historical engineers?
+How do they relate to ruling dynasties (all rulers are engineers — 00-vision)?
 
 **Decision:** _TBD_
 
@@ -39,8 +48,9 @@ Can the player's own fort / gun designs be saved and reused as blueprints?
 
 **Decision:** _TBD_
 
-### Ahead of history
-Can a player reach star forts before history did? Are there limits?
+### Ahead of the curve
+Can a player reach star forts much earlier than the rest of the world? Are there
+limits?
 
 **Decision:** _TBD_
 

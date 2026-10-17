@@ -4,7 +4,8 @@
 
 ## Already stated (initial pitch)
 
-- Gunpowder-era strategy game, c. 1400–1600.
+- Gunpowder-era strategy game. Fictional world at a technology level equivalent to
+  c. 1400–1600 (amended by ADR 0003; originally real history).
 - Two layers: a grand-strategy map (CK3 / EU5 style) and a physics-based siege layer.
 - Theme: cannon making tall medieval walls obsolete; the shift to low, angled star
   forts (*trace italienne*), experienced by the player in simulation.
@@ -16,8 +17,8 @@
 ### One-sentence pitch
 What is the game, in one sentence a stranger understands?
 
-**Decision:** Rule a Renaissance state as its chief engineer — and discover through
-real physics why the star fort replaced the castle.
+**Decision:** Rule a state in a gunpowder-age fictional world as its chief engineer —
+and discover through real physics why the star fort replaces the castle.
 
 ### Core fantasy and player role
 Who is the player — a ruler, a military engineer, a dynasty, or a mix? What should
@@ -36,7 +37,7 @@ the player *feel* they are doing?
    player's power comes from their designs; forts and guns are built from resources
    the player must manage. Resources are the engineer's constraint, not a goal in
    themselves. Cut: court-intrigue systems unrelated to engineering.
-3. **You rediscover history.** The player finds out *by experiment* why the star fort
+3. **You rediscover the revolution.** The player finds out *by experiment* why the star fort
    beats the tall wall; the game never simply tells them.
    Cut: buttons like "Research bastions: +20% defence".
 4. **Collapse is both spectacle and lesson.** Every failure should be satisfying to
@@ -74,7 +75,7 @@ Grand-strategy players, physics/engineering sandbox players, history enthusiasts
 who is primary, who is secondary?
 
 **Decision:** Primary: physics / engineering sandbox players (KSP, Poly Bridge,
-Besiege). Secondary: history enthusiasts. Grand-strategy players are targeted only
+Besiege). Secondary: military-engineering / fortification enthusiasts. Grand-strategy players are targeted only
 once the map layer has matured.
 
 ### Differentiation
@@ -93,7 +94,7 @@ and a show, never a punishment.
 When physical/historical accuracy and fun conflict, which wins, and how far?
 
 **Decision:** Believable physics: real equations, values tuned for play. Rule:
-*relative outcomes stay true to history* (tall walls lose to cannon, low angled
+*relative outcomes stay true to real-world physics and military engineering* (tall walls lose to cannon, low angled
 bastions hold); *absolute numbers may be tuned*.
 
 ### Commercial goal
