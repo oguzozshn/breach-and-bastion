@@ -97,7 +97,9 @@ is built (11-scope-milestones).
 
 ### Dependencies
 
-- Godot 4 .NET build installed (not found on this machine yet); .NET SDK 8+ (present).
+- Godot 4 **.NET** build. This machine has the standard Godot 4.7.2 (winget), which
+  cannot run C#; the .NET build (`GodotEngine.GodotEngine.Mono`) is needed.
+- .NET SDK 8+ (present: 8, 9, 10).
 - No dependency on any later milestone.
 
 ---
