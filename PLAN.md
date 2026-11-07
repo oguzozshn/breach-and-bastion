@@ -1,6 +1,6 @@
 # PLAN
 
-**Status:** Draft — awaiting owner approval. No game code before approval (ADR 0001).
+**Status:** Approved by the owner on 2026-11-07. Work on M1 has started.
 
 Built on `docs/requirements/` (topics 00–11) and ADRs 0001–0007. Dates are not set
 yet: they depend on the owner's weekly time budget (OQ-004). Each milestone has a

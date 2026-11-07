@@ -1,0 +1,17 @@
+# .NET
+bin/
+obj/
+*.user
+.vs/
+TestResults/
+
+# Godot
+.godot/
+game/export/
+*.translation
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

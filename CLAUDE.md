@@ -4,9 +4,18 @@ Read this file at the start of every session. It summarizes how this project is 
 
 ## Current phase
 
-**Planning.** All requirement topics are done (04–11 delegated, ADR 0007).
-`PLAN.md` is a draft awaiting the owner's approval. No game code is written until the
-owner approves it; then work starts on Milestone 1.
+**Milestone 1 — siege prototype.** All requirement topics are done (04–11
+delegated, ADR 0007) and `PLAN.md` is approved. Work follows the M1 task list in
+`PLAN.md`; nothing from later milestones is built before M1's fun test.
+
+## Code layout
+
+- `src/Core` — pure C# simulation (ballistics, structure, rubble, siege rules). No
+  Godot references. All outcome-relevant logic lives here (ADR 0006).
+- `src/Core.Tests` — xUnit tests (golden, stability, determinism).
+- `game/` — Godot 4 .NET project (presentation only).
+- `data/` — JSON data (materials, guns, projectiles).
+- Build and test: `dotnet test BreachAndBastion.sln`.
 
 ## Language
 
