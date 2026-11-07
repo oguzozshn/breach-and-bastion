@@ -1,0 +1,13 @@
+{
+  // Long bronze gun firing ~8 kg iron shot. Values tuned for play (00-vision).
+  "id": "culverin",
+  "name": "Culverin",
+  "bore": 0.13,
+  "barrelLength": 3.6,
+  "saturationCharge": 6.0,
+  "efficiency": 0.096,
+  "safeCharge": 6.0,
+  "burstCharge": 9.0,
+  "minElevation": -5,
+  "maxElevation": 20
+}

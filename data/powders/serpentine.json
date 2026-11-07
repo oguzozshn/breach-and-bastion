@@ -1,0 +1,7 @@
+{
+  // Starting powder (07-technology). Corned powder comes later as an upgrade.
+  "id": "serpentine",
+  "name": "Serpentine powder",
+  "specificEnergy": 3000000,
+  "burstFactor": 1.0
+}
