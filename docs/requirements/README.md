@@ -18,7 +18,7 @@ whatever the owner writes is authoritative.
 | --- | --- | --- | --- |
 | 0 | Vision | [00-vision.md](00-vision.md) | Done |
 | 1 | World and setting | [01-setting.md](01-setting.md) | Done |
-| 2 | Visual style | [02-visual-style.md](02-visual-style.md) | Not started |
+| 2 | Visual style | [02-visual-style.md](02-visual-style.md) | Done |
 | 3 | Strategic map layer | [03-strategic-map.md](03-strategic-map.md) | Not started |
 | 4 | Siege layer | [04-siege.md](04-siege.md) | Not started |
 | 5 | Links between layers | [05-layer-integration.md](05-layer-integration.md) | Not started |

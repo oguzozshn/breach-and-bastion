@@ -10,6 +10,13 @@
 - Structures fail under real loads: truss model (nodes + members); a member that
   exceeds its threshold breaks.
 - This layer is the deep one.
+- From 02-visual-style: hybrid presentation proposed — 3D scene, each wall segment
+  simulated as its own 2D cross-section truss, plan-view impact angle included.
+  Confirm under "Simulation dimensionality".
+- From 02-visual-style: large debris is simulated and forms a breach ramp; dust,
+  smoke and cracks are visual only.
+- From 02-visual-style: no full trajectory preview — ballistics learned from range
+  tables and ranging shots. Cameras: free orbit, over-the-barrel, cross-section.
 
 ## Questions
 

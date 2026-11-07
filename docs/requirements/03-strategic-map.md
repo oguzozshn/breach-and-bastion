@@ -12,6 +12,8 @@
   production chains, trade or markets in the MVP.
 - From 01-setting: one hand-crafted fictional map inspired by Renaissance Italy;
   3–5 curated playable states in the MVP; cultures and religions are flavour only.
+- From 02-visual-style: 2D ink-on-parchment map, flat top-down camera with 2–3 zoom
+  levels and map modes; ink-sketch ruler portraits.
 
 ## Questions
 

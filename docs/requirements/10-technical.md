@@ -6,6 +6,9 @@
 
 - Engine under consideration: Godot 4. GDScript vs. C# to be discussed.
 - Data-driven design wanted: states, guns, materials etc. read from files.
+- From 02-visual-style: target 1080p / 60 FPS in the siege scene on a GTX 1060-class
+  GPU. Wall and fortress geometry is generated procedurally from the simulation
+  model. Only assets with licences allowing commercial use.
 
 ## Questions
 
