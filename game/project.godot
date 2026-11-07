@@ -1,0 +1,19 @@
+; Engine configuration file.
+; Godot 4.7.2 .NET build (ADR 0005).
+
+config_version=5
+
+[application]
+
+config/name="Breach and Bastion"
+run/main_scene="res://scenes/siege_prototype.tscn"
+config/features=PackedStringArray("4.7", "C#", "Forward Plus")
+
+[display]
+
+window/size/viewport_width=1920
+window/size/viewport_height=1080
+
+[dotnet]
+
+project/assembly_name="BreachAndBastion.Game"
