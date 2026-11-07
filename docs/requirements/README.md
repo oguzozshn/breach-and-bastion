@@ -20,13 +20,13 @@ whatever the owner writes is authoritative.
 | 1 | World and setting | [01-setting.md](01-setting.md) | Done |
 | 2 | Visual style | [02-visual-style.md](02-visual-style.md) | Done |
 | 3 | Strategic map layer | [03-strategic-map.md](03-strategic-map.md) | Done |
-| 4 | Siege layer | [04-siege.md](04-siege.md) | Not started |
-| 5 | Links between layers | [05-layer-integration.md](05-layer-integration.md) | Not started |
-| 6 | Armies and logistics | [06-armies-logistics.md](06-armies-logistics.md) | Not started |
-| 7 | Technology and progression | [07-technology.md](07-technology.md) | Not started |
-| 8 | AI opponents | [08-ai.md](08-ai.md) | Not started |
-| 9 | Sound and music | [09-audio.md](09-audio.md) | Not started |
-| 10 | Technical foundation | [10-technical.md](10-technical.md) | Not started |
-| 11 | Scope and milestones | [11-scope-milestones.md](11-scope-milestones.md) | Not started |
+| 4 | Siege layer | [04-siege.md](04-siege.md) | Done (delegated, ADR 0007) |
+| 5 | Links between layers | [05-layer-integration.md](05-layer-integration.md) | Done (delegated, ADR 0007) |
+| 6 | Armies and logistics | [06-armies-logistics.md](06-armies-logistics.md) | Done (delegated, ADR 0007) |
+| 7 | Technology and progression | [07-technology.md](07-technology.md) | Done (delegated, ADR 0007) |
+| 8 | AI opponents | [08-ai.md](08-ai.md) | Done (delegated, ADR 0007) |
+| 9 | Sound and music | [09-audio.md](09-audio.md) | Done (delegated, ADR 0007) |
+| 10 | Technical foundation | [10-technical.md](10-technical.md) | Done (delegated, ADR 0007) |
+| 11 | Scope and milestones | [11-scope-milestones.md](11-scope-milestones.md) | Done (delegated, ADR 0007) |
 
 Status values: `Not started` → `In progress` → `Done`.
