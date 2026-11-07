@@ -6,6 +6,8 @@
 
 - From 00-vision: campaign length depends on how many sieges the player plays
   versus auto-resolves (OQ-003).
+- From 03-strategic-map: every province (20–30 in the MVP) has a fortress that needs
+  a design; enemy fortress designs stay hidden until scouted.
 
 ## Questions
 

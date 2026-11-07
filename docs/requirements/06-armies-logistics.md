@@ -7,6 +7,9 @@
 - From 00-vision: war is a chain of sieges; enemy armies fight by relieving a
   besieged fortress, inside the siege scene (ADR 0002).
 - From 00-vision: naval warfare is not in the MVP.
+- From 03-strategic-map: armies are tokens moving between adjacent provinces, one
+  season per turn; seasons matter for campaigning. Resources: money, stone, timber,
+  powder (incl. shot), labour.
 
 ## Questions
 
