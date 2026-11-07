@@ -4,9 +4,9 @@ Read this file at the start of every session. It summarizes how this project is 
 
 ## Current phase
 
-**Pre-production: requirements interview.** No game code is written until `PLAN.md`
-exists and the owner has approved it. Check `docs/requirements/README.md` for the
-status of each topic and continue from the first topic that is not `Done`.
+**Planning.** All requirement topics are done (04–11 delegated, ADR 0007).
+`PLAN.md` is a draft awaiting the owner's approval. No game code is written until the
+owner approves it; then work starts on Milestone 1.
 
 ## Language
 
