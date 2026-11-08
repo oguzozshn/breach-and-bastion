@@ -97,10 +97,22 @@ is built (11-scope-milestones).
 
 ### Dependencies
 
-- Godot 4 **.NET** build. This machine has the standard Godot 4.7.2 (winget), which
-  cannot run C#; the .NET build (`GodotEngine.GodotEngine.Mono`) is needed.
+- Godot 4.7.2 **.NET** build (installed via winget: `GodotEngine.GodotEngine.Mono`).
 - .NET SDK 8+ (present: 8, 9, 10).
+- Windows export templates for Godot 4.7.2 .NET (task 26; not installed yet).
 - No dependency on any later milestone.
+
+### Progress
+
+| Tasks | State | Notes |
+| --- | --- | --- |
+| 1–4 setup | Done | |
+| 5–8 ballistics | Done | |
+| 9–17 structure | Done | Crush energy added per material: elastic waves alone barely damaged walls. Earth stiffened and given cohesion to stand under self-weight. Acceptance test: tall wall 16 shots, bastion holds 2× that |
+| 18 scene | Partly | Ditch deferred: it needs a foundation height in Core, not just a visual trench |
+| 19–25 game | Done | Debug capture: `-- --screenshot=<png> --auto-fire=N --target=0/1 --camera=orbit/barrel/section --stress=on` |
+| 26 export | Open | Needs export templates |
+| 27–28 fun test | Open | |
 
 ---
 
