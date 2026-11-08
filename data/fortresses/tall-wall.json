@@ -1,0 +1,7 @@
+{
+  // M1 target 1: a straight medieval curtain wall facing -Z.
+  "id": "tall-wall",
+  "name": "Tall wall",
+  "trace": [[-20, 300], [20, 300]],
+  "profiles": ["tall-medieval-wall"]
+}

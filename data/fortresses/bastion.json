@@ -1,0 +1,7 @@
+{
+  // M1 target 2: a bastion with its salient towards -Z. Flank, face, face, flank.
+  "id": "bastion",
+  "name": "Bastion",
+  "trace": [[180, 330], [180, 315], [200, 290], [220, 315], [220, 330]],
+  "profiles": ["bastion-face"]
+}
