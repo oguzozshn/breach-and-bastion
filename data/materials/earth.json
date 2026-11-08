@@ -1,0 +1,14 @@
+{
+  // Compacted rampart fill: soft, heavily damped, absorbs shot. Some cohesion keeps
+  // the truss model (which has no friction) from tearing under its own weight.
+  "id": "earth",
+  "name": "Earth",
+  "density": 1800,
+  "stiffness": 1.0e8,
+  "tensileStrength": 1.5e5,
+  "compressiveStrength": 6.0e5,
+  "dampingRatio": 0.3,
+  "damageOnset": 0.6,
+  "damageRate": 10,
+  "crushEnergy": 1.5e6
+}

@@ -1,0 +1,13 @@
+{
+  // Oak along the grain: gun platforms and palisades.
+  "id": "timber",
+  "name": "Timber",
+  "density": 700,
+  "stiffness": 1.0e10,
+  "tensileStrength": 4.0e7,
+  "compressiveStrength": 3.0e7,
+  "dampingRatio": 0.05,
+  "damageOnset": 0.5,
+  "damageRate": 20,
+  "crushEnergy": 2.0e6
+}

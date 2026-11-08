@@ -1,0 +1,14 @@
+{
+  // Rubble-cored masonry with lime mortar: strong in compression, weak in tension.
+  // Stiffness is lowered from real values (~5 GPa) to keep the solver's timestep usable.
+  "id": "stone-masonry",
+  "name": "Stone masonry",
+  "density": 2300,
+  "stiffness": 1.0e9,
+  "tensileStrength": 6.0e5,
+  "compressiveStrength": 8.0e6,
+  "dampingRatio": 0.05,
+  "damageOnset": 0.5,
+  "damageRate": 40,
+  "crushEnergy": 3.0e6
+}

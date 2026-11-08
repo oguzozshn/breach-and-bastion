@@ -1,0 +1,14 @@
+{
+  // Low bastion face: masonry revetment backed by a thick earth rampart, earthen parapet (M1).
+  "id": "bastion-face",
+  "name": "Bastion face",
+  "height": 7,
+  "revetmentBaseThickness": 3.0,
+  "revetmentTopThickness": 2.0,
+  "revetmentMaterial": "stone-masonry",
+  "earthThickness": 10,
+  "earthMaterial": "earth",
+  "parapetHeight": 1.5,
+  "parapetThickness": 6,
+  "parapetMaterial": "earth"
+}

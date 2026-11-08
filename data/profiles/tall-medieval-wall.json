@@ -1,0 +1,14 @@
+{
+  // Old-style curtain wall: tall, thin, free-standing, crenellated parapet (M1).
+  "id": "tall-medieval-wall",
+  "name": "Tall medieval wall",
+  "height": 12,
+  "revetmentBaseThickness": 2.5,
+  "revetmentTopThickness": 2.0,
+  "revetmentMaterial": "stone-masonry",
+  "earthThickness": 0,
+  "earthMaterial": null,
+  "parapetHeight": 1.8,
+  "parapetThickness": 0.5,
+  "parapetMaterial": "stone-masonry"
+}
