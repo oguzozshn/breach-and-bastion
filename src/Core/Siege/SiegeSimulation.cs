@@ -7,6 +7,8 @@ namespace BreachAndBastion.Core.Siege;
 /// <summary>Where a shot struck a fortress, in that slice's plane.</summary>
 /// <param name="ObliquityDegrees">Plan-view angle between the shot and the face normal.</param>
 /// <param name="Ricochet">True when the shot glanced off: only the normal component was transferred.</param>
+/// <param name="CrushEnergy">Face-normal kinetic energy, J, that cuts the crater.</param>
+/// <param name="Radius">Radius of the struck area in the slice plane, m.</param>
 public sealed record StructureHit(
     Fortress Fortress,
     int Segment,
@@ -17,7 +19,9 @@ public sealed record StructureHit(
     double ObliquityDegrees,
     bool Ricochet,
     double ImpulseDepth,
-    double ImpulseHeight);
+    double ImpulseHeight,
+    double CrushEnergy,
+    double Radius);
 
 public sealed record ShotResult(bool Burst, IReadOnlyList<ProjectileState> Samples, ProjectileState? Impact, StructureHit? Hit);
 
@@ -50,7 +54,27 @@ public sealed class SiegeSimulation
     public IReadOnlyList<Fortress> Fortresses => _fortresses;
     public TrajectorySimulator Ballistics { get; }
 
-    public ShotResult Fire(Shot shot, double groundHeight = 0, double maxTime = 60)
+    /// <summary>
+    /// Fires a shot. With <paramref name="applyImpact"/> false the hit is found but not yet
+    /// applied, so a presentation layer can animate the flight first and call
+    /// <see cref="ApplyImpact"/> when the ball arrives.
+    /// </summary>
+    public ShotResult Fire(Shot shot, double groundHeight = 0, double maxTime = 60, bool applyImpact = true)
+    {
+        var result = Trace(shot, groundHeight, maxTime);
+        if (applyImpact && result.Hit is not null) ApplyImpact(result.Hit);
+        return result;
+    }
+
+    /// <summary>Crushes and pushes the struck slice.</summary>
+    public static void ApplyImpact(StructureHit hit)
+    {
+        var structure = hit.Fortress.Segments[hit.Segment].Slices[hit.Slice].Structure;
+        structure.ApplyCrushing(hit.Depth, hit.Height, hit.CrushEnergy, hit.Radius);
+        structure.ApplyImpulse(hit.Depth, hit.Height, hit.ImpulseDepth, hit.ImpulseHeight, hit.Radius);
+    }
+
+    private ShotResult Trace(Shot shot, double groundHeight, double maxTime)
     {
         var burstChance = InteriorBallistics.BurstProbability(shot.Gun, shot.Powder, shot.Charge);
         if (_random.NextDouble() < burstChance) return new ShotResult(true, [], null, null);
@@ -130,6 +154,7 @@ public sealed class SiegeSimulation
     /// <summary>
     /// Splits the shot's momentum: the part in the slice plane is transferred, the part along
     /// the wall is carried away. Above the ricochet angle only the face-normal part is.
+    /// Computes the hit only; <see cref="ApplyImpact"/> applies it.
     /// </summary>
     private static StructureHit Strike(Fortress fortress, int s, int index, ProjectileSpec projectile, ProjectileState state, double depth, double height)
     {
@@ -144,11 +169,10 @@ public sealed class SiegeSimulation
         var impulseDepth = projectile.Mass * inward;
         var impulseHeight = ricochet ? 0 : projectile.Mass * velocity.Y;
         var radius = Math.Max(2 * projectile.Diameter, 0.6);
-        var structure = segment.Slices[index].Structure;
-        structure.ApplyCrushing(depth, height, 0.5 * projectile.Mass * inward * inward, radius);
-        structure.ApplyImpulse(depth, height, impulseDepth, impulseHeight, radius);
+        var crushEnergy = 0.5 * projectile.Mass * inward * inward;
 
-        return new StructureHit(fortress, s, index, state.Position, depth, height, obliquity, ricochet, impulseDepth, impulseHeight);
+        return new StructureHit(fortress, s, index, state.Position, depth, height, obliquity, ricochet,
+            impulseDepth, impulseHeight, crushEnergy, radius);
     }
 
     /// <summary>Advances every awake slice and turns fallen nodes into rubble.</summary>
